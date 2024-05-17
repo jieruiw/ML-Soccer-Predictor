@@ -2,7 +2,6 @@ import pandas as pd
 import os
 from glob import glob
 
-# Load all team CSV files into a combined DataFrame
 data_directory = '../data'
 all_files = glob(os.path.join(data_directory, '*_gen.csv'))
 
@@ -10,10 +9,12 @@ dfs = []
 for file in all_files:
     team_name = os.path.basename(file).split('-')[0]
     df = pd.read_csv(file)
-    df['Team'] = team_name
     dfs.append(df)
 
 combined_df = pd.concat(dfs, ignore_index=True)
+
+# Sort by Matchweek
+combined_df = combined_df.sort_values(by=['Round'])
 
 # Feature engineering
 def add_rolling_features(df, window=3):
