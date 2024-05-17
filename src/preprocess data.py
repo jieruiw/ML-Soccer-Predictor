@@ -14,6 +14,7 @@ for file in all_files:
 combined_df = pd.concat(dfs, ignore_index=True)
 
 # Sort by Matchweek
+combined_df['Round'] = combined_df['Round'].str.extract('(\d+)').astype(int)
 combined_df = combined_df.sort_values(by=['Round'])
 
 # Feature engineering
