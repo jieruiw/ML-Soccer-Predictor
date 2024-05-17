@@ -1,0 +1,39 @@
+Round,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Team
+Matchweek 1,Home,W,4.0,1.0,Luton Town,4.0,1.5,70.0,Brighton-and-Hove-Albion
+Matchweek 2,Away,W,4.0,1.0,Wolverhampton Wanderers,2.2,2.1,53.0,Brighton-and-Hove-Albion
+Matchweek 3,Home,L,1.0,3.0,West Ham United,1.5,3.0,78.0,Brighton-and-Hove-Albion
+Matchweek 4,Home,W,3.0,1.0,Newcastle United,1.3,1.2,56.0,Brighton-and-Hove-Albion
+Matchweek 5,Away,W,3.0,1.0,Manchester United,1.7,1.0,56.0,Brighton-and-Hove-Albion
+Matchweek 6,Home,W,3.0,1.0,Bournemouth,1.9,1.1,61.0,Brighton-and-Hove-Albion
+Matchweek 7,Away,L,1.0,6.0,Aston Villa,1.7,1.6,61.0,Brighton-and-Hove-Albion
+Matchweek 8,Home,D,2.0,2.0,Liverpool,2.3,2.3,46.0,Brighton-and-Hove-Albion
+Matchweek 9,Away,L,1.0,2.0,Manchester City,0.8,0.8,45.0,Brighton-and-Hove-Albion
+Matchweek 10,Home,D,1.0,1.0,Fulham,1.4,0.7,71.0,Brighton-and-Hove-Albion
+Matchweek 11,Away,D,1.0,1.0,Everton,0.5,0.7,79.0,Brighton-and-Hove-Albion
+Matchweek 12,Home,D,1.0,1.0,Sheffield United,1.5,1.1,61.0,Brighton-and-Hove-Albion
+Matchweek 13,Away,W,3.0,2.0,Nottingham Forest,1.3,1.9,53.0,Brighton-and-Hove-Albion
+Matchweek 14,Away,L,2.0,3.0,Chelsea,1.1,2.1,68.0,Brighton-and-Hove-Albion
+Matchweek 15,Home,W,2.0,1.0,Brentford,1.5,1.5,61.0,Brighton-and-Hove-Albion
+Matchweek 16,Home,D,1.0,1.0,Burnley,2.6,0.6,72.0,Brighton-and-Hove-Albion
+Matchweek 17,Away,L,0.0,2.0,Arsenal,0.7,2.3,51.0,Brighton-and-Hove-Albion
+Matchweek 18,Away,D,1.0,1.0,Crystal Palace,1.2,1.3,65.0,Brighton-and-Hove-Albion
+Matchweek 19,Home,W,4.0,2.0,Tottenham Hotspur,3.2,2.3,45.0,Brighton-and-Hove-Albion
+Matchweek 20,Away,D,0.0,0.0,West Ham United,2.3,0.7,68.0,Brighton-and-Hove-Albion
+Matchweek 21,Home,D,0.0,0.0,Wolverhampton Wanderers,1.0,1.1,72.0,Brighton-and-Hove-Albion
+Matchweek 22,Away,L,0.0,4.0,Luton Town,0.9,3.1,59.0,Brighton-and-Hove-Albion
+Matchweek 23,Home,W,4.0,1.0,Crystal Palace,1.4,0.3,68.0,Brighton-and-Hove-Albion
+Matchweek 24,Away,L,1.0,2.0,Tottenham Hotspur,1.2,1.6,48.0,Brighton-and-Hove-Albion
+Matchweek 25,Away,W,5.0,0.0,Sheffield United,2.9,0.6,79.0,Brighton-and-Hove-Albion
+Matchweek 26,Home,D,1.0,1.0,Everton,1.4,0.3,64.0,Brighton-and-Hove-Albion
+Matchweek 27,Away,L,0.0,3.0,Fulham,1.3,1.3,70.0,Brighton-and-Hove-Albion
+Matchweek 28,Home,W,1.0,0.0,Nottingham Forest,0.4,0.7,63.0,Brighton-and-Hove-Albion
+Matchweek 30,Away,L,1.0,2.0,Liverpool,0.5,2.8,45.0,Brighton-and-Hove-Albion
+Matchweek 31,Away,D,0.0,0.0,Brentford,1.1,0.6,66.0,Brighton-and-Hove-Albion
+Matchweek 32,Home,L,0.0,3.0,Arsenal,0.5,3.4,54.0,Brighton-and-Hove-Albion
+Matchweek 33,Away,D,1.0,1.0,Burnley,0.9,1.7,55.0,Brighton-and-Hove-Albion
+Matchweek 29,Home,L,0.0,4.0,Manchester City,0.6,1.4,35.0,Brighton-and-Hove-Albion
+Matchweek 35,Away,L,0.0,3.0,Bournemouth,0.9,1.9,69.0,Brighton-and-Hove-Albion
+Matchweek 36,Home,W,1.0,0.0,Aston Villa,2.5,0.1,52.0,Brighton-and-Hove-Albion
+Matchweek 37,Away,D,1.0,1.0,Newcastle United,1.4,2.2,43.0,Brighton-and-Hove-Albion
+Matchweek 34,Home,L,1.0,2.0,Chelsea,1.1,1.5,55.0,Brighton-and-Hove-Albion
+Matchweek 38,Home,,,,Manchester United,,,,Brighton-and-Hove-Albion

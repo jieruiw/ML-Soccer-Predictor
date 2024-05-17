@@ -1,0 +1,39 @@
+Round,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Team
+Matchweek 1,Away,L,1.0,5.0,Newcastle United,1.8,3.3,48.0,Aston-Villa
+Matchweek 2,Home,W,4.0,0.0,Everton,2.9,0.6,60.0,Aston-Villa
+Matchweek 3,Away,W,3.0,1.0,Burnley,2.5,0.7,43.0,Aston-Villa
+Matchweek 4,Away,L,0.0,3.0,Liverpool,0.7,2.5,37.0,Aston-Villa
+Matchweek 5,Home,W,3.0,1.0,Crystal Palace,3.0,1.2,66.0,Aston-Villa
+Matchweek 6,Away,W,1.0,0.0,Chelsea,1.0,1.3,47.0,Aston-Villa
+Matchweek 7,Home,W,6.0,1.0,Brighton & Hove Albion,1.6,1.7,39.0,Aston-Villa
+Matchweek 8,Away,D,1.0,1.0,Wolverhampton Wanderers,1.6,1.7,53.0,Aston-Villa
+Matchweek 9,Home,W,4.0,1.0,West Ham United,1.9,1.1,58.0,Aston-Villa
+Matchweek 10,Home,W,3.0,1.0,Luton Town,2.3,0.5,70.0,Aston-Villa
+Matchweek 11,Away,L,0.0,2.0,Nottingham Forest,1.2,0.4,73.0,Aston-Villa
+Matchweek 12,Home,W,3.0,1.0,Fulham,3.0,0.9,51.0,Aston-Villa
+Matchweek 13,Away,W,2.0,1.0,Tottenham Hotspur,1.7,2.3,38.0,Aston-Villa
+Matchweek 14,Away,D,2.0,2.0,Bournemouth,0.7,2.0,62.0,Aston-Villa
+Matchweek 15,Home,W,1.0,0.0,Manchester City,2.3,0.6,46.0,Aston-Villa
+Matchweek 16,Home,W,1.0,0.0,Arsenal,0.6,1.4,39.0,Aston-Villa
+Matchweek 17,Away,W,2.0,1.0,Brentford,1.4,0.5,66.0,Aston-Villa
+Matchweek 18,Home,D,1.0,1.0,Sheffield United,0.9,0.6,77.0,Aston-Villa
+Matchweek 19,Away,L,2.0,3.0,Manchester United,1.7,1.1,54.0,Aston-Villa
+Matchweek 20,Home,W,3.0,2.0,Burnley,3.2,1.2,64.0,Aston-Villa
+Matchweek 21,Away,D,0.0,0.0,Everton,1.2,1.1,68.0,Aston-Villa
+Matchweek 22,Home,L,1.0,3.0,Newcastle United,1.4,2.6,61.0,Aston-Villa
+Matchweek 23,Away,W,5.0,0.0,Sheffield United,2.2,1.4,63.0,Aston-Villa
+Matchweek 24,Home,L,1.0,2.0,Manchester United,2.4,1.8,56.0,Aston-Villa
+Matchweek 25,Away,W,2.0,1.0,Fulham,1.5,1.5,48.0,Aston-Villa
+Matchweek 26,Home,W,4.0,2.0,Nottingham Forest,3.6,2.6,58.0,Aston-Villa
+Matchweek 27,Away,W,3.0,2.0,Luton Town,1.9,1.8,54.0,Aston-Villa
+Matchweek 28,Home,L,0.0,4.0,Tottenham Hotspur,0.8,1.5,32.0,Aston-Villa
+Matchweek 29,Away,D,1.0,1.0,West Ham United,0.7,2.0,69.0,Aston-Villa
+Matchweek 30,Home,W,2.0,0.0,Wolverhampton Wanderers,1.0,1.5,48.0,Aston-Villa
+Matchweek 31,Away,L,1.0,4.0,Manchester City,0.8,3.4,33.0,Aston-Villa
+Matchweek 32,Home,D,3.0,3.0,Brentford,1.5,1.5,69.0,Aston-Villa
+Matchweek 33,Away,W,2.0,0.0,Arsenal,0.9,1.6,48.0,Aston-Villa
+Matchweek 34,Home,W,3.0,1.0,Bournemouth,2.4,1.8,56.0,Aston-Villa
+Matchweek 35,Home,D,2.0,2.0,Chelsea,1.1,1.6,29.0,Aston-Villa
+Matchweek 36,Away,L,0.0,1.0,Brighton & Hove Albion,0.1,2.5,48.0,Aston-Villa
+Matchweek 37,Home,D,3.0,3.0,Liverpool,3.1,1.7,41.0,Aston-Villa
+Matchweek 38,Away,,,,Crystal Palace,,,,Aston-Villa
