@@ -7,17 +7,18 @@ df = pd.read_csv(data_path)
 # Remove rows with missing values
 df = df.dropna()
 
-# Create a match identifier
-df['Match_ID'] = df.apply(lambda row: '-'.join(sorted([row['Team'], row['Opponent']]) + [str(row['Round'])]), axis=1)
+# Create a unique match identifier for home and away matches separately
+df['Match_ID'] = df.apply(lambda row: f"{row['Round']}-{row['Team']}-{row['Opponent']}", axis=1)
+df['Opponent_Match_ID'] = df.apply(lambda row: f"{row['Round']}-{row['Opponent']}-{row['Team']}", axis=1)
 
-# Split the dataframe into two: one for the home team and one for the away team
+# Split the dataframe into home and away dataframes
 home_df = df[df['Venue'] == 'Home'].set_index('Match_ID')
-away_df = df[df['Venue'] == 'Away'].set_index('Match_ID')
+away_df = df[df['Venue'] == 'Away'].set_index('Opponent_Match_ID')
 
-# Combine the home and away dataframes
+# Join home and away dataframes on their unique match identifiers
 combined_df = home_df.join(away_df, lsuffix='_home', rsuffix='_away')
 
-# Debug: Check the shape of combined_df
+# Debug: Check the shape and first few rows of the combined dataframe
 print(f'Combined dataframe shape: {combined_df.shape}')
 print(f'First few rows of combined dataframe:\n{combined_df.head()}')
 
