@@ -59,10 +59,10 @@ def calculate_form(df):
 
     def weighted_form(group):
         form = (
-            group.shift(1).rolling(3, min_periods=1).apply(
-                lambda x: sum(a * b for a, b in zip(x[::-1], weights[:len(x)])), raw=True)
+            group.shift(1).rolling(window=3, min_periods=1).apply(
+                lambda x: sum(a * b for a, b in zip(x[::-1], weights[-len(x):])), raw=True)
         )
-        form = form / 11.25 * 10  # Normalize to be out of 10
+        form = form / sum(weights[:len(form.dropna())]) * 10  # Normalize to be out of 10
         return form
 
     df['Form'] = df.groupby('Team')['Form_Points'].transform(weighted_form)
