@@ -1,13 +1,13 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
-Matchweek 1,Newcastle-United,Aston Villa,W,Home,5,1,3.3,1.8,52
-Matchweek 2,Newcastle-United,Manchester City,L,Away,0,1,0.3,1.0,41
+Matchweek 1,Newcastle-United,Aston-Villa,W,Home,5,1,3.3,1.8,52
+Matchweek 2,Newcastle-United,Manchester-City,L,Away,0,1,0.3,1.0,41
 Matchweek 3,Newcastle-United,Liverpool,L,Home,1,2,2.0,0.9,59
 Matchweek 4,Newcastle-United,Brighton,L,Away,1,3,1.2,1.3,44
 Matchweek 5,Newcastle-United,Brentford,W,Home,1,0,1.4,0.5,56
 Matchweek 6,Newcastle-United,Sheffield Utd,W,Away,8,0,3.9,0.9,58
 Matchweek 7,Newcastle-United,Burnley,W,Home,2,0,3.1,0.6,53
 Matchweek 8,Newcastle-United,West Ham,D,Away,2,2,2.0,1.2,64
-Matchweek 9,Newcastle-United,Crystal Palace,W,Home,4,0,2.4,1.2,59
+Matchweek 9,Newcastle-United,Crystal-Palace,W,Home,4,0,2.4,1.2,59
 Matchweek 10,Newcastle-United,Wolves,D,Away,2,2,2.2,0.9,57
 Matchweek 11,Newcastle-United,Arsenal,W,Home,1,0,1.0,0.6,42
 Matchweek 12,Newcastle-United,Bournemouth,L,Away,0,2,0.5,2.4,52
@@ -16,13 +16,13 @@ Matchweek 14,Newcastle-United,Manchester Utd,W,Home,1,0,2.4,0.5,58
 Matchweek 15,Newcastle-United,Everton,L,Away,0,3,1.5,3.3,62
 Matchweek 16,Newcastle-United,Tottenham,L,Away,1,4,1.7,3.8,44
 Matchweek 17,Newcastle-United,Fulham,W,Home,3,0,3.5,0.3,70
-Matchweek 18,Newcastle-United,Luton Town,L,Away,0,1,1.4,1.4,65
-Matchweek 19,Newcastle-United,Nott'ham Forest,L,Home,1,3,2.4,3.5,62
+Matchweek 18,Newcastle-United,Luton-Town,L,Away,0,1,1.4,1.4,65
+Matchweek 19,Newcastle-United,Nottingham-Forest,L,Home,1,3,2.4,3.5,62
 Matchweek 20,Newcastle-United,Liverpool,L,Away,2,4,0.6,7.0,39
-Matchweek 21,Newcastle-United,Manchester City,L,Home,2,3,1.3,3.0,28
-Matchweek 22,Newcastle-United,Aston Villa,W,Away,3,1,2.6,1.4,39
-Matchweek 23,Newcastle-United,Luton Town,D,Home,4,4,2.3,2.4,55
-Matchweek 24,Newcastle-United,Nott'ham Forest,W,Away,3,2,0.5,1.5,61
+Matchweek 21,Newcastle-United,Manchester-City,L,Home,2,3,1.3,3.0,28
+Matchweek 22,Newcastle-United,Aston-Villa,W,Away,3,1,2.6,1.4,39
+Matchweek 23,Newcastle-United,Luton-Town,D,Home,4,4,2.3,2.4,55
+Matchweek 24,Newcastle-United,Nottingham-Forest,W,Away,3,2,0.5,1.5,61
 Matchweek 25,Newcastle-United,Bournemouth,D,Home,2,2,2.2,2.2,62
 Matchweek 26,Newcastle-United,Arsenal,L,Away,1,4,0.2,2.8,45
 Matchweek 27,Newcastle-United,Wolves,W,Home,3,0,2.1,0.8,44
@@ -31,7 +31,7 @@ Matchweek 30,Newcastle-United,West Ham,W,Home,4,3,4.1,1.4,60
 Matchweek 31,Newcastle-United,Everton,D,Home,1,1,2.4,1.4,57
 Matchweek 32,Newcastle-United,Fulham,W,Away,1,0,1.0,1.2,34
 Matchweek 33,Newcastle-United,Tottenham,W,Home,4,0,2.8,0.8,28
-Matchweek 29,Newcastle-United,Crystal Palace,L,Away,0,2,0.4,0.9,53
+Matchweek 29,Newcastle-United,Crystal-Palace,L,Away,0,2,0.4,0.9,53
 Matchweek 35,Newcastle-United,Sheffield Utd,W,Home,5,1,3.1,1.5,60
 Matchweek 36,Newcastle-United,Burnley,W,Away,4,1,3.4,1.0,53
 Matchweek 37,Newcastle-United,Brighton,D,Home,1,1,2.2,1.4,57

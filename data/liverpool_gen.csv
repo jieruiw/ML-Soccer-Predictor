@@ -2,19 +2,19 @@ Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
 Matchweek 1,Liverpool,Chelsea,D,Away,1,1,1.3,1.4,35
 Matchweek 2,Liverpool,Bournemouth,W,Home,3,1,3.0,1.3,64
 Matchweek 3,Liverpool,Newcastle Utd,W,Away,2,1,0.9,2.0,41
-Matchweek 4,Liverpool,Aston Villa,W,Home,3,0,2.5,0.7,63
+Matchweek 4,Liverpool,Aston-Villa,W,Home,3,0,2.5,0.7,63
 Matchweek 5,Liverpool,Wolves,W,Away,3,1,2.5,0.6,65
 Matchweek 6,Liverpool,West Ham,W,Home,3,1,3.0,1.1,63
 Matchweek 7,Liverpool,Tottenham,L,Away,1,2,1.3,2.2,36
 Matchweek 8,Liverpool,Brighton,D,Away,2,2,2.3,2.3,54
 Matchweek 9,Liverpool,Everton,W,Home,2,0,2.2,0.1,77
-Matchweek 10,Liverpool,Nott'ham Forest,W,Home,3,0,3.2,0.4,72
-Matchweek 11,Liverpool,Luton Town,D,Away,1,1,2.6,0.8,73
+Matchweek 10,Liverpool,Nottingham-Forest,W,Home,3,0,3.2,0.4,72
+Matchweek 11,Liverpool,Luton-Town,D,Away,1,1,2.6,0.8,73
 Matchweek 12,Liverpool,Brentford,W,Home,3,0,1.7,1.6,58
-Matchweek 13,Liverpool,Manchester City,D,Away,1,1,0.6,1.3,41
+Matchweek 13,Liverpool,Manchester-City,D,Away,1,1,0.6,1.3,41
 Matchweek 14,Liverpool,Fulham,W,Home,4,3,2.1,1.2,61
 Matchweek 15,Liverpool,Sheffield Utd,W,Away,2,0,1.7,1.0,75
-Matchweek 16,Liverpool,Crystal Palace,W,Away,2,1,1.2,1.7,76
+Matchweek 16,Liverpool,Crystal-Palace,W,Away,2,1,1.2,1.7,76
 Matchweek 17,Liverpool,Manchester Utd,D,Home,0,0,2.3,0.8,68
 Matchweek 18,Liverpool,Arsenal,D,Home,1,1,1.0,0.7,52
 Matchweek 19,Liverpool,Burnley,W,Away,2,0,1.8,0.8,68
@@ -24,16 +24,16 @@ Matchweek 22,Liverpool,Chelsea,W,Home,4,1,2.9,0.6,50
 Matchweek 23,Liverpool,Arsenal,L,Away,1,3,0.4,3.5,57
 Matchweek 24,Liverpool,Burnley,W,Home,3,1,2.8,1.3,70
 Matchweek 25,Liverpool,Brentford,W,Away,4,1,2.8,1.6,62
-Matchweek 26,Liverpool,Luton Town,W,Home,4,1,3.3,0.9,60
-Matchweek 27,Liverpool,Nott'ham Forest,W,Away,1,0,2.0,1.0,69
-Matchweek 28,Liverpool,Manchester City,D,Home,1,1,2.7,1.6,53
+Matchweek 26,Liverpool,Luton-Town,W,Home,4,1,3.3,0.9,60
+Matchweek 27,Liverpool,Nottingham-Forest,W,Away,1,0,2.0,1.0,69
+Matchweek 28,Liverpool,Manchester-City,D,Home,1,1,2.7,1.6,53
 Matchweek 30,Liverpool,Brighton,W,Home,2,1,2.8,0.5,55
 Matchweek 31,Liverpool,Sheffield Utd,W,Home,3,1,1.8,0.6,82
 Matchweek 32,Liverpool,Manchester Utd,D,Away,2,2,3.6,0.7,62
-Matchweek 33,Liverpool,Crystal Palace,L,Home,0,1,2.7,2.0,69
+Matchweek 33,Liverpool,Crystal-Palace,L,Home,0,1,2.7,2.0,69
 Matchweek 34,Liverpool,Fulham,W,Away,3,1,1.0,0.8,60
 Matchweek 29,Liverpool,Everton,L,Away,0,2,2.1,1.2,75
 Matchweek 35,Liverpool,West Ham,D,Away,2,2,1.7,0.7,71
 Matchweek 36,Liverpool,Tottenham,W,Home,4,2,3.3,1.2,44
-Matchweek 37,Liverpool,Aston Villa,D,Away,3,3,1.7,3.1,59
+Matchweek 37,Liverpool,Aston-Villa,D,Away,3,3,1.7,3.1,59
 Matchweek 38,Liverpool,Wolves,W,Home,2,0,4.5,0.5,67

@@ -25,6 +25,29 @@ team_ids = {
 
 }
 
+team_name_mapping = {
+    "Arsenal": "Arsenal",
+    "Aston Villa": "Aston-Villa",
+    "Bournemouth": "Bournemouth",
+    "Brentford": "Brentford",
+    "Brighton and Hove Albion": "Brighton-and-Hove-Albion",
+    "Burnley": "Burnley",
+    "Chelsea": "Chelsea",
+    "Crystal Palace": "Crystal-Palace",
+    "Everton": "Everton",
+    "Fulham": "Fulham",
+    "Liverpool": "Liverpool",
+    "Luton Town": "Luton-Town",
+    "Manchester City": "Manchester-City",
+    "Manchester United": "Manchester-United",
+    "Newcastle United": "Newcastle-United",
+    "Nott'ham Forest": "Nottingham-Forest",
+    "Sheffield United": "Sheffield-United",
+    "Tottenham Hotspur": "Tottenham-Hotspur",
+    "West Ham United": "West-Ham-United",
+    "Wolverhampton Wanderers": "Wolverhampton-Wanderers"
+}
+
 
 def process_gen_data(team_name, team_id):
     base_url = 'https://fbref.com/en/squads/{}/2023-2024/matchlogs/c9/schedule/{}-Scores-and-Fixtures-Premier-League'
@@ -38,6 +61,10 @@ def process_gen_data(team_name, team_id):
     gen_columns = ['Round', 'Team', 'Opponent', 'Result', 'Venue', 'GF', 'GA', 'xG', 'xGA', 'Poss']
 
     df = df[gen_columns]
+
+    # Standardize team names
+    df['Team'] = df['Team'].replace(team_name_mapping)
+    df['Opponent'] = df['Opponent'].replace(team_name_mapping)
 
     # Create the data directory if it doesn't exist
     data_directory = '../data'
