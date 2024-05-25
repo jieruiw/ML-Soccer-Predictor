@@ -1,9 +1,9 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
-Matchweek 1,Manchester-United,Wolves,W,Home,1,0,2.2,2.2,51
+Matchweek 1,Manchester-United,Wolverhampton-Wanderers,W,Home,1,0,2.2,2.2,51
 Matchweek 2,Manchester-United,Tottenham,L,Away,0,2,2.1,1.7,45
 Matchweek 3,Manchester-United,Nottingham-Forest,W,Home,3,2,2.8,1.2,66
 Matchweek 4,Manchester-United,Arsenal,L,Away,1,3,0.9,2.3,45
-Matchweek 5,Manchester-United,Brighton,L,Home,1,3,1.0,1.7,44
+Matchweek 5,Manchester-United,Brighton-and-Hove-Albion,L,Home,1,3,1.0,1.7,44
 Matchweek 6,Manchester-United,Burnley,W,Away,1,0,1.0,1.1,39
 Matchweek 7,Manchester-United,Crystal-Palace,L,Home,0,1,1.3,0.9,77
 Matchweek 8,Manchester-United,Brentford,W,Home,2,1,1.4,0.9,64
@@ -20,7 +20,7 @@ Matchweek 18,Manchester-United,West-Ham-United,L,Away,0,2,1.0,1.2,65
 Matchweek 19,Manchester-United,Aston-Villa,W,Home,3,2,1.1,1.7,46
 Matchweek 20,Manchester-United,Nottingham-Forest,L,Away,1,2,0.8,0.7,56
 Matchweek 21,Manchester-United,Tottenham,D,Home,2,2,0.8,1.2,37
-Matchweek 22,Manchester-United,Wolves,W,Away,4,3,3.3,2.1,47
+Matchweek 22,Manchester-United,Wolverhampton-Wanderers,W,Away,4,3,3.3,2.1,47
 Matchweek 23,Manchester-United,West-Ham-United,W,Home,3,0,0.7,1.4,51
 Matchweek 24,Manchester-United,Aston-Villa,W,Away,2,1,1.8,2.4,44
 Matchweek 25,Manchester-United,Luton-Town,W,Away,2,1,2.9,1.8,42
@@ -36,4 +36,4 @@ Matchweek 35,Manchester-United,Burnley,D,Home,1,1,2.7,2.1,48
 Matchweek 36,Manchester-United,Crystal-Palace,L,Away,0,4,0.4,1.7,57
 Matchweek 37,Manchester-United,Arsenal,L,Home,0,1,0.5,1.5,54
 Matchweek 34,Manchester-United,Newcastle-United,W,Home,3,2,1.4,2.3,45
-Matchweek 38,Manchester-United,Brighton,W,Away,2,0,1.3,1.7,45
+Matchweek 38,Manchester-United,Brighton-and-Hove-Albion,W,Away,2,0,1.3,1.7,45

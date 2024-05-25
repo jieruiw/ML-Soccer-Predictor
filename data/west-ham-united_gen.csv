@@ -1,7 +1,7 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
 Matchweek 1,West-Ham-United,Bournemouth,D,Away,1,1,1.1,1.3,38
 Matchweek 2,West-Ham-United,Chelsea,W,Home,3,1,1.8,2.5,25
-Matchweek 3,West-Ham-United,Brighton,W,Away,3,1,3.0,1.5,22
+Matchweek 3,West-Ham-United,Brighton-and-Hove-Albion,W,Away,3,1,3.0,1.5,22
 Matchweek 4,West-Ham-United,Luton-Town,W,Away,2,1,1.0,1.4,61
 Matchweek 5,West-Ham-United,Manchester-City,L,Home,1,3,0.9,3.6,32
 Matchweek 6,West-Ham-United,Liverpool,L,Away,1,3,1.1,3.0,37
@@ -15,10 +15,10 @@ Matchweek 13,West-Ham-United,Burnley,W,Away,2,1,0.9,1.3,50
 Matchweek 14,West-Ham-United,Crystal-Palace,D,Home,1,1,1.1,0.9,55
 Matchweek 15,West-Ham-United,Tottenham,W,Away,2,1,2.2,1.8,26
 Matchweek 16,West-Ham-United,Fulham,L,Away,0,5,1.3,2.3,37
-Matchweek 17,West-Ham-United,Wolves,W,Home,3,0,1.1,0.7,45
+Matchweek 17,West-Ham-United,Wolverhampton-Wanderers,W,Home,3,0,1.1,0.7,45
 Matchweek 18,West-Ham-United,Manchester-United,W,Home,2,0,1.2,1.0,35
 Matchweek 19,West-Ham-United,Arsenal,W,Away,2,0,1.4,2.7,27
-Matchweek 20,West-Ham-United,Brighton,D,Home,0,0,0.7,2.3,32
+Matchweek 20,West-Ham-United,Brighton-and-Hove-Albion,D,Home,0,0,0.7,2.3,32
 Matchweek 21,West-Ham-United,Sheffield-United,D,Away,2,2,2.3,2.5,43
 Matchweek 22,West-Ham-United,Bournemouth,D,Home,1,1,1.4,1.2,48
 Matchweek 23,West-Ham-United,Manchester-United,L,Away,0,3,1.4,0.7,49
@@ -30,7 +30,7 @@ Matchweek 28,West-Ham-United,Burnley,D,Home,2,2,2.1,0.7,52
 Matchweek 29,West-Ham-United,Aston-Villa,D,Home,1,1,2.0,0.7,31
 Matchweek 30,West-Ham-United,Newcastle-United,L,Away,3,4,1.4,4.1,40
 Matchweek 31,West-Ham-United,Tottenham,D,Home,1,1,1.5,1.0,33
-Matchweek 32,West-Ham-United,Wolves,W,Away,2,1,1.2,1.5,42
+Matchweek 32,West-Ham-United,Wolverhampton-Wanderers,W,Away,2,1,1.2,1.5,42
 Matchweek 33,West-Ham-United,Fulham,L,Home,0,2,0.9,3.2,58
 Matchweek 34,West-Ham-United,Crystal-Palace,L,Away,2,5,1.3,2.4,40
 Matchweek 35,West-Ham-United,Liverpool,D,Home,2,2,0.7,1.7,29

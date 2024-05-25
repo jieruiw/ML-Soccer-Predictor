@@ -30,7 +30,7 @@ team_name_mapping = {
     "Aston Villa": "Aston-Villa",
     "Bournemouth": "Bournemouth",
     "Brentford": "Brentford",
-    "Brighton and Hove Albion": "Brighton-and-Hove-Albion",
+    "Brighton": "Brighton-and-Hove-Albion",
     "Burnley": "Burnley",
     "Chelsea": "Chelsea",
     "Crystal Palace": "Crystal-Palace",
@@ -45,7 +45,7 @@ team_name_mapping = {
     "Sheffield Utd": "Sheffield-United",
     "Tottenham Hotspur": "Tottenham-Hotspur",
     "West Ham": "West-Ham-United",
-    "Wolverhampton Wanderers": "Wolverhampton-Wanderers"
+    "Wolves": "Wolverhampton-Wanderers"
 }
 
 
