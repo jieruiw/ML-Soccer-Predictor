@@ -20,11 +20,11 @@ combined_df = combined_df.sort_values(by=['Round', 'Team'])
 
 # Feature engineering
 def add_rolling_features(df, window=3):
-    df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).rolling(window).mean())
-    df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).rolling(window).mean())
-    df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).rolling(window).mean())
-    df['Avg_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).rolling(window).mean())
-    df['Avg_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).rolling(window).mean())
+    df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Avg_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Avg_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
     return df
 
 
