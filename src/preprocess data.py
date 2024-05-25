@@ -15,18 +15,21 @@ combined_df = pd.concat(dfs, ignore_index=True)
 
 # Sort by Matchweek
 combined_df['Round'] = combined_df['Round'].str.extract('(\d+)').astype(int)
-combined_df = combined_df.sort_values(by=['Round'])
+combined_df = combined_df.sort_values(by=['Round', 'Team'])
+
 
 # Feature engineering
-def add_rolling_features(df, window=3): # !!! Most likely broken
-    df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.rolling(window).mean())
-    df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.rolling(window).mean())
-    df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.rolling(window).mean())
-    df['Avg_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.rolling(window).mean())
-    df['Avg_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.rolling(window).mean())
+def add_rolling_features(df, window=3):
+    df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).rolling(window).mean())
+    df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).rolling(window).mean())
+    df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).rolling(window).mean())
+    df['Avg_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).rolling(window).mean())
+    df['Avg_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).rolling(window).mean())
     return df
 
+
 combined_df = add_rolling_features(combined_df)
+
 
 # Label creation
 def create_labels(df):
@@ -34,6 +37,7 @@ def create_labels(df):
     df.loc[df['Result'] == 'W', 'Label'] = 1
     df.loc[df['Result'] == 'L', 'Label'] = -1
     return df
+
 
 combined_df = create_labels(combined_df)
 
