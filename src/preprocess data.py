@@ -41,7 +41,6 @@ def create_labels(df):
 
 combined_df = create_labels(combined_df)
 
-
 # Calculate team form
 def calculate_team_form(df, window=5):
     # Define weights
@@ -52,43 +51,22 @@ def calculate_team_form(df, window=5):
         form = points.shift().rolling(window, min_periods=1).apply(
             lambda x: sum(a * b for a, b in zip(x[::-1], weights[:len(x)])), raw=True
         )
-        group['Form_Score'] = form
-        return group
+        return form
 
-    df_no_groups = df.groupby('Team', group_keys=False).apply(form_score, include_groups=False)
-    df['Form_Score'] = df_no_groups['Form_Score']
+    # Calculate Home Form and Away Form separately
+    df['Home_Form'] = df[df['Venue'] == 'Home'].groupby('Team', group_keys=False).apply(form_score, include_groups=False)
+    df['Away_Form'] = df[df['Venue'] == 'Away'].groupby('Team', group_keys=False).apply(form_score, include_groups=False)
 
     # Normalize form score out of 10
     max_score = sum([3 * w for w in weights])
-    df['Form_Score'] = (df['Form_Score'] / max_score) * 10
+    df['Home_Form'] = (df['Home_Form'] / max_score) * 10
+    df['Away_Form'] = (df['Away_Form'] / max_score) * 10
 
     return df
 
 combined_df = calculate_team_form(combined_df)
 
-# Separate home and away form
-def calculate_home_away_form(df, window=5):
-    # Define weights
-    weights = [2, 1.75, 1.5, 1.25, 1]
 
-    def form_score(group):
-        points = group['Result'].apply(lambda x: 3 if x == 'W' else 2 if x == 'D' else 1)
-        form = points.shift().rolling(window, min_periods=1).apply(
-            lambda x: sum(a * b for a, b in zip(x[::-1], weights[:len(x)])), raw=True
-        )
-        return form
-
-    df['Home_Form_Score'] = df[df['Venue'] == 'Home'].groupby('Team', group_keys=False).apply(form_score, include_groups=False)
-    df['Away_Form_Score'] = df[df['Venue'] == 'Away'].groupby('Team', group_keys=False).apply(form_score, include_groups=False)
-
-    # Normalize form score out of 10
-    max_score = sum([3 * w for w in weights])
-    df['Home_Form_Score'] = (df['Home_Form_Score'] / max_score) * 10
-    df['Away_Form_Score'] = (df['Away_Form_Score'] / max_score) * 10
-
-    return df
-
-combined_df = calculate_home_away_form(combined_df)
 
 # Save the processed data
 processed_data_path = os.path.join(data_directory, 'processed_combined_data.csv')
