@@ -56,16 +56,18 @@ def calculate_form(df):
     df['Form_Points'] = df['Result'].apply(form_points)
 
     weights = [1.5, 1.25, 1.0]
-    def weighted_form(group):
-        group = group.sort_values(by='Round')
+
+    def weighted_form(points):
         form = (
-            group['Form_Points'].shift(1).rolling(3, min_periods=1).apply(
-                lambda x: sum(a*b for a, b in zip(x[::-1], weights[:len(x)])), raw=True)
+            points.shift(1).rolling(3, min_periods=1).apply(
+                lambda x: sum(a * b for a, b in zip(x[::-1], weights[:len(x)])), raw=True)
         )
         form = form / sum(weights) * 10  # Normalize to be out of 10
         return form
 
-    df['Form'] = df.groupby('Team').apply(lambda x: weighted_form(x)).reset_index(level=0, drop=True)
+    # Calculate the weighted form for each team without including the grouping column
+    df['Form'] = df.groupby('Team')['Form_Points'].transform(weighted_form)
+
     df.drop(columns=['Form_Points'], inplace=True)
     return df
 
