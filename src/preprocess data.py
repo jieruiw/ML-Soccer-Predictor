@@ -55,7 +55,7 @@ def calculate_team_form(df, window=5):
         group['Form_Score'] = form
         return group
 
-    df = df.groupby('Team', group_keys=False).apply(form_score, include_groups=False)
+    df = df.groupby('Team', group_keys=False).apply(form_score)
 
     # Normalize form score out of 10
     max_score = sum([3 * w for w in weights])
