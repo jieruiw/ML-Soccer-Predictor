@@ -1,39 +1,39 @@
-Round,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Team
-Matchweek 1,Home,D,1.0,1.0,West Ham United,1.3,1.1,62.0,Bournemouth
-Matchweek 2,Away,L,1.0,3.0,Liverpool,1.3,3.0,36.0,Bournemouth
-Matchweek 3,Home,L,0.0,2.0,Tottenham Hotspur,0.7,2.1,44.0,Bournemouth
-Matchweek 4,Away,D,2.0,2.0,Brentford,2.1,2.9,40.0,Bournemouth
-Matchweek 5,Home,D,0.0,0.0,Chelsea,1.0,1.8,36.0,Bournemouth
-Matchweek 6,Away,L,1.0,3.0,Brighton & Hove Albion,1.1,1.9,39.0,Bournemouth
-Matchweek 7,Home,L,0.0,4.0,Arsenal,0.6,3.4,43.0,Bournemouth
-Matchweek 8,Away,L,0.0,3.0,Everton,0.7,2.4,52.0,Bournemouth
-Matchweek 9,Home,L,1.0,2.0,Wolverhampton Wanderers,0.6,2.4,35.0,Bournemouth
-Matchweek 10,Home,W,2.0,1.0,Burnley,1.1,0.8,45.0,Bournemouth
-Matchweek 11,Away,L,1.0,6.0,Manchester City,0.9,1.9,35.0,Bournemouth
-Matchweek 12,Home,W,2.0,0.0,Newcastle United,2.4,0.5,48.0,Bournemouth
-Matchweek 13,Away,W,3.0,1.0,Sheffield United,2.9,0.8,54.0,Bournemouth
-Matchweek 14,Home,D,2.0,2.0,Aston Villa,2.0,0.7,38.0,Bournemouth
-Matchweek 15,Away,W,2.0,0.0,Crystal Palace,1.8,1.0,41.0,Bournemouth
-Matchweek 16,Away,W,3.0,0.0,Manchester United,1.5,1.1,32.0,Bournemouth
-Matchweek 18,Away,W,3.0,2.0,Nottingham Forest,1.6,1.0,66.0,Bournemouth
-Matchweek 19,Home,W,3.0,0.0,Fulham,1.8,0.3,43.0,Bournemouth
-Matchweek 20,Away,L,1.0,3.0,Tottenham Hotspur,1.7,2.3,50.0,Bournemouth
-Matchweek 21,Home,L,0.0,4.0,Liverpool,1.4,1.5,40.0,Bournemouth
-Matchweek 22,Away,D,1.0,1.0,West Ham United,1.2,1.4,52.0,Bournemouth
-Matchweek 23,Home,D,1.0,1.0,Nottingham Forest,1.3,0.5,45.0,Bournemouth
-Matchweek 24,Away,L,1.0,3.0,Fulham,1.8,1.6,51.0,Bournemouth
-Matchweek 25,Away,D,2.0,2.0,Newcastle United,2.2,2.2,38.0,Bournemouth
-Matchweek 26,Home,L,0.0,1.0,Manchester City,0.9,1.6,38.0,Bournemouth
-Matchweek 27,Away,W,2.0,0.0,Burnley,1.1,1.5,26.0,Bournemouth
-Matchweek 28,Home,D,2.0,2.0,Sheffield United,3.3,1.2,69.0,Bournemouth
-Matchweek 17,Home,W,4.0,3.0,Luton Town,2.3,2.0,59.0,Bournemouth
-Matchweek 30,Home,W,2.0,1.0,Everton,1.3,1.0,48.0,Bournemouth
-Matchweek 31,Home,W,1.0,0.0,Crystal Palace,1.1,0.2,50.0,Bournemouth
-Matchweek 32,Away,L,1.0,2.0,Luton Town,0.4,1.5,45.0,Bournemouth
-Matchweek 33,Home,D,2.0,2.0,Manchester United,1.6,1.2,43.0,Bournemouth
-Matchweek 34,Away,L,1.0,3.0,Aston Villa,1.8,2.4,44.0,Bournemouth
-Matchweek 29,Away,W,1.0,0.0,Wolverhampton Wanderers,1.9,0.5,37.0,Bournemouth
-Matchweek 35,Home,W,3.0,0.0,Brighton & Hove Albion,1.9,0.9,31.0,Bournemouth
-Matchweek 36,Away,L,0.0,3.0,Arsenal,0.5,3.3,45.0,Bournemouth
-Matchweek 37,Home,L,1.0,2.0,Brentford,0.7,1.1,48.0,Bournemouth
-Matchweek 38,Away,,,,Chelsea,,,,Bournemouth
+Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
+Matchweek 1,Bournemouth,West Ham,D,Home,1,1,1.3,1.1,62
+Matchweek 2,Bournemouth,Liverpool,L,Away,1,3,1.3,3.0,36
+Matchweek 3,Bournemouth,Tottenham,L,Home,0,2,0.7,2.1,44
+Matchweek 4,Bournemouth,Brentford,D,Away,2,2,2.1,2.9,40
+Matchweek 5,Bournemouth,Chelsea,D,Home,0,0,1.0,1.8,36
+Matchweek 6,Bournemouth,Brighton,L,Away,1,3,1.1,1.9,39
+Matchweek 7,Bournemouth,Arsenal,L,Home,0,4,0.6,3.4,43
+Matchweek 8,Bournemouth,Everton,L,Away,0,3,0.7,2.4,52
+Matchweek 9,Bournemouth,Wolves,L,Home,1,2,0.6,2.4,35
+Matchweek 10,Bournemouth,Burnley,W,Home,2,1,1.1,0.8,45
+Matchweek 11,Bournemouth,Manchester City,L,Away,1,6,0.9,1.9,35
+Matchweek 12,Bournemouth,Newcastle Utd,W,Home,2,0,2.4,0.5,48
+Matchweek 13,Bournemouth,Sheffield Utd,W,Away,3,1,2.9,0.8,54
+Matchweek 14,Bournemouth,Aston Villa,D,Home,2,2,2.0,0.7,38
+Matchweek 15,Bournemouth,Crystal Palace,W,Away,2,0,1.8,1.0,41
+Matchweek 16,Bournemouth,Manchester Utd,W,Away,3,0,1.5,1.1,32
+Matchweek 18,Bournemouth,Nott'ham Forest,W,Away,3,2,1.6,1.0,66
+Matchweek 19,Bournemouth,Fulham,W,Home,3,0,1.8,0.3,43
+Matchweek 20,Bournemouth,Tottenham,L,Away,1,3,1.7,2.3,50
+Matchweek 21,Bournemouth,Liverpool,L,Home,0,4,1.4,1.5,40
+Matchweek 22,Bournemouth,West Ham,D,Away,1,1,1.2,1.4,52
+Matchweek 23,Bournemouth,Nott'ham Forest,D,Home,1,1,1.3,0.5,45
+Matchweek 24,Bournemouth,Fulham,L,Away,1,3,1.8,1.6,51
+Matchweek 25,Bournemouth,Newcastle Utd,D,Away,2,2,2.2,2.2,38
+Matchweek 26,Bournemouth,Manchester City,L,Home,0,1,0.9,1.6,38
+Matchweek 27,Bournemouth,Burnley,W,Away,2,0,1.1,1.5,26
+Matchweek 28,Bournemouth,Sheffield Utd,D,Home,2,2,3.3,1.2,69
+Matchweek 17,Bournemouth,Luton Town,W,Home,4,3,2.3,2.0,59
+Matchweek 30,Bournemouth,Everton,W,Home,2,1,1.3,1.0,48
+Matchweek 31,Bournemouth,Crystal Palace,W,Home,1,0,1.1,0.2,50
+Matchweek 32,Bournemouth,Luton Town,L,Away,1,2,0.4,1.5,45
+Matchweek 33,Bournemouth,Manchester Utd,D,Home,2,2,1.6,1.2,43
+Matchweek 34,Bournemouth,Aston Villa,L,Away,1,3,1.8,2.4,44
+Matchweek 29,Bournemouth,Wolves,W,Away,1,0,1.9,0.5,37
+Matchweek 35,Bournemouth,Brighton,W,Home,3,0,1.9,0.9,31
+Matchweek 36,Bournemouth,Arsenal,L,Away,0,3,0.5,3.3,45
+Matchweek 37,Bournemouth,Brentford,L,Home,1,2,0.7,1.1,48
+Matchweek 38,Bournemouth,Chelsea,L,Away,1,2,2.2,1.1,39

@@ -23,9 +23,8 @@ team_ids = {
     "West-Ham-United": "7c21e445",
     "Wolverhampton-Wanderers": "8cec06e1"
 
-
-
 }
+
 
 def process_gen_data(team_name, team_id):
     base_url = 'https://fbref.com/en/squads/{}/2023-2024/matchlogs/c9/schedule/{}-Scores-and-Fixtures-Premier-League'
@@ -35,9 +34,10 @@ def process_gen_data(team_name, team_id):
     df = pd.read_html(url, attrs={"id": "matchlogs_for"})[0]
 
     # Filter the columns
-    gen_columns = ['Round', 'Venue', 'Result', 'GF', 'GA', 'Opponent', 'xG', 'xGA', 'Poss']
-    df = df[gen_columns]
     df['Team'] = team_name
+    gen_columns = ['Round', 'Team', 'Opponent', 'Result', 'Venue', 'GF', 'GA', 'xG', 'xGA', 'Poss']
+
+    df = df[gen_columns]
 
     # Create the data directory if it doesn't exist
     data_directory = '../data'
@@ -48,52 +48,42 @@ def process_gen_data(team_name, team_id):
     df.to_csv(file_path, index=False)
     print(f"Saved data for {team_name} to {file_path}")
 
+
 # Loop through each team and process its data
 for team_name, team_id in team_ids.items():
     process_gen_data(team_name, team_id)
-
 
 muShootingURL = 'https://fbref.com/en/squads/19538871/2023-2024/matchlogs/c9/shooting/Manchester-United-Match-Logs-Premier-League'
 muPassingURL = 'https://fbref.com/en/squads/19538871/2023-2024/matchlogs/c9/passing/Manchester-United-Match-Logs-Premier-League'
 muDefenceURL = 'https://fbref.com/en/squads/19538871/2023-2024/matchlogs/c9/defense/Manchester-United-Match-Logs-Premier-League'
 
-
-
 muShootingDF = pd.read_html(muShootingURL, attrs={"id": "matchlogs_for"})[0]
 muPassingDF = pd.read_html(muPassingURL, attrs={"id": "matchlogs_for"})[0]
 muDefenceDF = pd.read_html(muDefenceURL, attrs={"id": "matchlogs_for"})[0]
-
-
-
-
 
 muShootingDF.columns = muShootingDF.columns.get_level_values(1)
 muPassingDF.columns = ['_'.join(col).strip() for col in muPassingDF.columns.values]
 muDefenceDF.columns = ['_'.join(col).strip() for col in muDefenceDF.columns.values]
 
-muPassingDF.rename(columns={'For Manchester United_Round': 'Round'}, inplace = True)
-muDefenceDF.rename(columns={'For Manchester United_Round': 'Round', 'Tackles_Tkl': 'Tackles', 'Unnamed: 21_level_0_Int':'Int'}, inplace = True)
+muPassingDF.rename(columns={'For Manchester United_Round': 'Round'}, inplace=True)
+muDefenceDF.rename(
+    columns={'For Manchester United_Round': 'Round', 'Tackles_Tkl': 'Tackles', 'Unnamed: 21_level_0_Int': 'Int'},
+    inplace=True)
 
 shooting_columns = ['Round', 'G/Sh', 'npxG/Sh']
 passing_columns = ['Round', 'Total_Cmp%']
 defence_columns = ['Round', 'Tackles', 'Int']
 
-
-
 muShootingDF = muShootingDF[shooting_columns]
 muPassingDF = muPassingDF[passing_columns]
 muDefenceDF = muDefenceDF[defence_columns]
 
-
 data_directory = '../data'
 os.makedirs(data_directory, exist_ok=True)
-
-
 
 muShootingPath = os.path.join(data_directory, 'mu_shooting.csv')
 muPassingPath = os.path.join(data_directory, 'mu_passing.csv')
 muDefencePath = os.path.join(data_directory, 'mu_defence.csv')
-
 
 muShootingDF.to_csv(muShootingPath, index=False)
 muPassingDF.to_csv(muPassingPath, index=False)

@@ -1,39 +1,39 @@
-Round,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Team
-Matchweek 1,Home,W,2.0,1.0,Nottingham Forest,0.8,1.2,78.0,Arsenal
-Matchweek 2,Away,W,1.0,0.0,Crystal Palace,2.0,1.0,53.0,Arsenal
-Matchweek 3,Home,D,2.0,2.0,Fulham,3.2,0.6,71.0,Arsenal
-Matchweek 4,Home,W,3.0,1.0,Manchester United,2.3,0.9,55.0,Arsenal
-Matchweek 5,Away,W,1.0,0.0,Everton,1.0,0.3,74.0,Arsenal
-Matchweek 6,Home,D,2.0,2.0,Tottenham Hotspur,1.8,1.4,47.0,Arsenal
-Matchweek 7,Away,W,4.0,0.0,Bournemouth,3.4,0.6,57.0,Arsenal
-Matchweek 8,Home,W,1.0,0.0,Manchester City,0.4,0.5,49.0,Arsenal
-Matchweek 9,Away,D,2.0,2.0,Chelsea,1.0,1.3,56.0,Arsenal
-Matchweek 10,Home,W,5.0,0.0,Sheffield United,2.8,0.0,67.0,Arsenal
-Matchweek 11,Away,L,0.0,1.0,Newcastle United,0.6,1.0,58.0,Arsenal
-Matchweek 12,Home,W,3.0,1.0,Burnley,1.8,0.3,63.0,Arsenal
-Matchweek 13,Away,W,1.0,0.0,Brentford,1.6,1.1,63.0,Arsenal
-Matchweek 14,Home,W,2.0,1.0,Wolverhampton Wanderers,2.8,0.7,57.0,Arsenal
-Matchweek 15,Away,W,4.0,3.0,Luton Town,2.2,0.5,66.0,Arsenal
-Matchweek 16,Away,L,0.0,1.0,Aston Villa,1.4,0.6,61.0,Arsenal
-Matchweek 17,Home,W,2.0,0.0,Brighton & Hove Albion,2.3,0.7,49.0,Arsenal
-Matchweek 18,Away,D,1.0,1.0,Liverpool,0.7,1.0,48.0,Arsenal
-Matchweek 19,Home,L,0.0,2.0,West Ham United,2.7,1.4,73.0,Arsenal
-Matchweek 20,Away,L,1.0,2.0,Fulham,1.6,1.2,60.0,Arsenal
-Matchweek 21,Home,W,5.0,0.0,Crystal Palace,3.3,0.3,60.0,Arsenal
-Matchweek 22,Away,W,2.0,1.0,Nottingham Forest,1.2,0.5,73.0,Arsenal
-Matchweek 23,Home,W,3.0,1.0,Liverpool,3.5,0.4,43.0,Arsenal
-Matchweek 24,Away,W,6.0,0.0,West Ham United,3.6,0.2,70.0,Arsenal
-Matchweek 25,Away,W,5.0,0.0,Burnley,2.3,0.3,64.0,Arsenal
-Matchweek 26,Home,W,4.0,1.0,Newcastle United,2.8,0.2,55.0,Arsenal
-Matchweek 27,Away,W,6.0,0.0,Sheffield United,2.3,0.2,80.0,Arsenal
-Matchweek 28,Home,W,2.0,1.0,Brentford,1.3,1.0,71.0,Arsenal
-Matchweek 30,Away,D,0.0,0.0,Manchester City,0.7,1.0,28.0,Arsenal
-Matchweek 31,Home,W,2.0,0.0,Luton Town,0.7,0.3,58.0,Arsenal
-Matchweek 32,Away,W,3.0,0.0,Brighton & Hove Albion,3.4,0.5,46.0,Arsenal
-Matchweek 33,Home,L,0.0,2.0,Aston Villa,1.6,0.9,52.0,Arsenal
-Matchweek 34,Away,W,2.0,0.0,Wolverhampton Wanderers,1.2,0.2,54.0,Arsenal
-Matchweek 29,Home,W,5.0,0.0,Chelsea,3.3,1.6,45.0,Arsenal
-Matchweek 35,Away,W,3.0,2.0,Tottenham Hotspur,1.0,2.3,38.0,Arsenal
-Matchweek 36,Home,W,3.0,0.0,Bournemouth,3.3,0.5,55.0,Arsenal
-Matchweek 37,Away,W,1.0,0.0,Manchester United,1.5,0.5,46.0,Arsenal
-Matchweek 38,Home,,,,Everton,,,,Arsenal
+Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
+Matchweek 1,Arsenal,Nott'ham Forest,W,Home,2,1,0.8,1.2,78
+Matchweek 2,Arsenal,Crystal Palace,W,Away,1,0,2.0,1.0,53
+Matchweek 3,Arsenal,Fulham,D,Home,2,2,3.2,0.6,71
+Matchweek 4,Arsenal,Manchester Utd,W,Home,3,1,2.3,0.9,55
+Matchweek 5,Arsenal,Everton,W,Away,1,0,1.0,0.3,74
+Matchweek 6,Arsenal,Tottenham,D,Home,2,2,1.8,1.4,47
+Matchweek 7,Arsenal,Bournemouth,W,Away,4,0,3.4,0.6,57
+Matchweek 8,Arsenal,Manchester City,W,Home,1,0,0.4,0.5,49
+Matchweek 9,Arsenal,Chelsea,D,Away,2,2,1.0,1.3,56
+Matchweek 10,Arsenal,Sheffield Utd,W,Home,5,0,2.8,0.0,67
+Matchweek 11,Arsenal,Newcastle Utd,L,Away,0,1,0.6,1.0,58
+Matchweek 12,Arsenal,Burnley,W,Home,3,1,1.8,0.3,63
+Matchweek 13,Arsenal,Brentford,W,Away,1,0,1.6,1.1,63
+Matchweek 14,Arsenal,Wolves,W,Home,2,1,2.8,0.7,57
+Matchweek 15,Arsenal,Luton Town,W,Away,4,3,2.2,0.5,66
+Matchweek 16,Arsenal,Aston Villa,L,Away,0,1,1.4,0.6,61
+Matchweek 17,Arsenal,Brighton,W,Home,2,0,2.3,0.7,49
+Matchweek 18,Arsenal,Liverpool,D,Away,1,1,0.7,1.0,48
+Matchweek 19,Arsenal,West Ham,L,Home,0,2,2.7,1.4,73
+Matchweek 20,Arsenal,Fulham,L,Away,1,2,1.6,1.2,60
+Matchweek 21,Arsenal,Crystal Palace,W,Home,5,0,3.3,0.3,60
+Matchweek 22,Arsenal,Nott'ham Forest,W,Away,2,1,1.2,0.5,73
+Matchweek 23,Arsenal,Liverpool,W,Home,3,1,3.5,0.4,43
+Matchweek 24,Arsenal,West Ham,W,Away,6,0,3.6,0.2,70
+Matchweek 25,Arsenal,Burnley,W,Away,5,0,2.3,0.3,64
+Matchweek 26,Arsenal,Newcastle Utd,W,Home,4,1,2.8,0.2,55
+Matchweek 27,Arsenal,Sheffield Utd,W,Away,6,0,2.3,0.2,80
+Matchweek 28,Arsenal,Brentford,W,Home,2,1,1.3,1.0,71
+Matchweek 30,Arsenal,Manchester City,D,Away,0,0,0.7,1.0,28
+Matchweek 31,Arsenal,Luton Town,W,Home,2,0,0.7,0.3,58
+Matchweek 32,Arsenal,Brighton,W,Away,3,0,3.4,0.5,46
+Matchweek 33,Arsenal,Aston Villa,L,Home,0,2,1.6,0.9,52
+Matchweek 34,Arsenal,Wolves,W,Away,2,0,1.2,0.2,54
+Matchweek 29,Arsenal,Chelsea,W,Home,5,0,3.3,1.6,45
+Matchweek 35,Arsenal,Tottenham,W,Away,3,2,1.0,2.3,38
+Matchweek 36,Arsenal,Bournemouth,W,Home,3,0,3.3,0.5,55
+Matchweek 37,Arsenal,Manchester Utd,W,Away,1,0,1.5,0.5,46
+Matchweek 38,Arsenal,Everton,W,Home,2,1,2.9,0.6,68

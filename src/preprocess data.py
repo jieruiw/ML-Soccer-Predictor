@@ -18,7 +18,7 @@ combined_df['Round'] = combined_df['Round'].str.extract('(\d+)').astype(int)
 combined_df = combined_df.sort_values(by=['Round'])
 
 # Feature engineering
-def add_rolling_features(df, window=3):
+def add_rolling_features(df, window=3): # !!! Most likely broken
     df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.rolling(window).mean())
     df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.rolling(window).mean())
     df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.rolling(window).mean())
