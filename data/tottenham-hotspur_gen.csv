@@ -1,9 +1,9 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
 Matchweek 1,Tottenham-Hotspur,Brentford,D,Away,2,2,1.3,2.2,69
-Matchweek 2,Tottenham-Hotspur,Manchester Utd,W,Home,2,0,1.7,2.1,55
+Matchweek 2,Tottenham-Hotspur,Manchester-United,W,Home,2,0,1.7,2.1,55
 Matchweek 3,Tottenham-Hotspur,Bournemouth,W,Away,2,0,2.1,0.7,56
 Matchweek 4,Tottenham-Hotspur,Burnley,W,Away,5,2,2.2,1.3,53
-Matchweek 5,Tottenham-Hotspur,Sheffield Utd,W,Home,2,1,2.1,0.7,70
+Matchweek 5,Tottenham-Hotspur,Sheffield-United,W,Home,2,1,2.1,0.7,70
 Matchweek 6,Tottenham-Hotspur,Arsenal,D,Away,2,2,1.4,1.8,53
 Matchweek 7,Tottenham-Hotspur,Liverpool,W,Home,2,1,2.2,1.3,64
 Matchweek 8,Tottenham-Hotspur,Luton-Town,W,Away,1,0,1.9,0.8,66
@@ -13,13 +13,13 @@ Matchweek 11,Tottenham-Hotspur,Chelsea,L,Home,1,4,0.9,4.1,40
 Matchweek 12,Tottenham-Hotspur,Wolves,L,Away,1,2,0.7,2.1,58
 Matchweek 13,Tottenham-Hotspur,Aston-Villa,L,Home,1,2,2.3,1.7,62
 Matchweek 14,Tottenham-Hotspur,Manchester-City,D,Away,3,3,0.5,2.6,45
-Matchweek 15,Tottenham-Hotspur,West Ham,L,Home,1,2,1.8,2.2,74
-Matchweek 16,Tottenham-Hotspur,Newcastle Utd,W,Home,4,1,3.8,1.7,56
+Matchweek 15,Tottenham-Hotspur,West-Ham-United,L,Home,1,2,1.8,2.2,74
+Matchweek 16,Tottenham-Hotspur,Newcastle-United,W,Home,4,1,3.8,1.7,56
 Matchweek 17,Tottenham-Hotspur,Nottingham-Forest,W,Away,2,0,1.5,1.3,66
 Matchweek 18,Tottenham-Hotspur,Everton,W,Home,2,1,1.5,1.8,61
 Matchweek 19,Tottenham-Hotspur,Brighton,L,Away,2,4,2.3,3.2,55
 Matchweek 20,Tottenham-Hotspur,Bournemouth,W,Home,3,1,2.3,1.7,50
-Matchweek 21,Tottenham-Hotspur,Manchester Utd,D,Away,2,2,1.2,0.8,63
+Matchweek 21,Tottenham-Hotspur,Manchester-United,D,Away,2,2,1.2,0.8,63
 Matchweek 22,Tottenham-Hotspur,Brentford,W,Home,3,2,2.9,1.6,67
 Matchweek 23,Tottenham-Hotspur,Everton,D,Away,2,2,1.0,2.6,57
 Matchweek 24,Tottenham-Hotspur,Brighton,W,Home,2,1,1.6,1.2,52
@@ -28,12 +28,12 @@ Matchweek 27,Tottenham-Hotspur,Crystal-Palace,W,Home,3,1,1.9,0.3,78
 Matchweek 28,Tottenham-Hotspur,Aston-Villa,W,Away,4,0,1.5,0.8,68
 Matchweek 29,Tottenham-Hotspur,Fulham,L,Away,0,3,2.4,2.6,57
 Matchweek 30,Tottenham-Hotspur,Luton-Town,W,Home,2,1,2.9,0.5,70
-Matchweek 31,Tottenham-Hotspur,West Ham,D,Away,1,1,1.0,1.5,67
+Matchweek 31,Tottenham-Hotspur,West-Ham-United,D,Away,1,1,1.0,1.5,67
 Matchweek 32,Tottenham-Hotspur,Nottingham-Forest,W,Home,3,1,1.5,1.5,63
-Matchweek 33,Tottenham-Hotspur,Newcastle Utd,L,Away,0,4,0.8,2.8,72
+Matchweek 33,Tottenham-Hotspur,Newcastle-United,L,Away,0,4,0.8,2.8,72
 Matchweek 35,Tottenham-Hotspur,Arsenal,L,Home,2,3,2.3,1.0,62
 Matchweek 26,Tottenham-Hotspur,Chelsea,L,Away,0,2,1.6,2.2,63
 Matchweek 36,Tottenham-Hotspur,Liverpool,L,Away,2,4,1.2,3.3,56
 Matchweek 37,Tottenham-Hotspur,Burnley,W,Home,2,1,2.7,0.7,63
 Matchweek 34,Tottenham-Hotspur,Manchester-City,L,Home,0,2,1.7,2.4,53
-Matchweek 38,Tottenham-Hotspur,Sheffield Utd,W,Away,3,0,3.1,1.0,75
+Matchweek 38,Tottenham-Hotspur,Sheffield-United,W,Away,3,0,3.1,1.0,75

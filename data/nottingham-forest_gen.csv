@@ -1,7 +1,7 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
 Matchweek 1,Nottingham-Forest,Arsenal,L,Away,1,2,1.2,0.8,22
-Matchweek 2,Nottingham-Forest,Sheffield Utd,W,Home,2,1,1.4,0.5,50
-Matchweek 3,Nottingham-Forest,Manchester Utd,L,Away,2,3,1.2,2.8,34
+Matchweek 2,Nottingham-Forest,Sheffield-United,W,Home,2,1,1.4,0.5,50
+Matchweek 3,Nottingham-Forest,Manchester-United,L,Away,2,3,1.2,2.8,34
 Matchweek 4,Nottingham-Forest,Chelsea,W,Away,1,0,0.8,2.3,25
 Matchweek 5,Nottingham-Forest,Burnley,D,Home,1,1,0.7,0.5,46
 Matchweek 6,Nottingham-Forest,Manchester-City,L,Away,0,2,1.0,1.3,43
@@ -10,20 +10,20 @@ Matchweek 8,Nottingham-Forest,Crystal-Palace,D,Away,0,0,1.0,0.8,48
 Matchweek 9,Nottingham-Forest,Luton-Town,D,Home,2,2,2.9,1.7,57
 Matchweek 10,Nottingham-Forest,Liverpool,L,Away,0,3,0.4,3.2,28
 Matchweek 11,Nottingham-Forest,Aston-Villa,W,Home,2,0,0.4,1.2,27
-Matchweek 12,Nottingham-Forest,West Ham,L,Away,2,3,1.7,1.8,46
+Matchweek 12,Nottingham-Forest,West-Ham-United,L,Away,2,3,1.7,1.8,46
 Matchweek 13,Nottingham-Forest,Brighton,L,Home,2,3,1.9,1.3,47
 Matchweek 14,Nottingham-Forest,Everton,L,Home,0,1,0.7,0.7,61
 Matchweek 15,Nottingham-Forest,Fulham,L,Away,0,5,0.3,2.5,37
 Matchweek 16,Nottingham-Forest,Wolves,D,Away,1,1,1.3,1.2,32
 Matchweek 17,Nottingham-Forest,Tottenham,L,Home,0,2,1.3,1.5,34
 Matchweek 18,Nottingham-Forest,Bournemouth,L,Home,2,3,1.0,1.6,34
-Matchweek 19,Nottingham-Forest,Newcastle Utd,W,Away,3,1,3.5,2.4,38
-Matchweek 20,Nottingham-Forest,Manchester Utd,W,Home,2,1,0.7,0.8,44
+Matchweek 19,Nottingham-Forest,Newcastle-United,W,Away,3,1,3.5,2.4,38
+Matchweek 20,Nottingham-Forest,Manchester-United,W,Home,2,1,0.7,0.8,44
 Matchweek 21,Nottingham-Forest,Brentford,L,Away,2,3,1.2,1.2,52
 Matchweek 22,Nottingham-Forest,Arsenal,L,Home,1,2,0.5,1.2,27
 Matchweek 23,Nottingham-Forest,Bournemouth,D,Away,1,1,0.5,1.3,55
-Matchweek 24,Nottingham-Forest,Newcastle Utd,L,Home,2,3,1.5,0.5,39
-Matchweek 25,Nottingham-Forest,West Ham,W,Home,2,0,2.8,0.5,49
+Matchweek 24,Nottingham-Forest,Newcastle-United,L,Home,2,3,1.5,0.5,39
+Matchweek 25,Nottingham-Forest,West-Ham-United,W,Home,2,0,2.8,0.5,49
 Matchweek 26,Nottingham-Forest,Aston-Villa,L,Away,2,4,2.6,3.6,42
 Matchweek 27,Nottingham-Forest,Liverpool,L,Home,0,1,1.0,2.0,31
 Matchweek 28,Nottingham-Forest,Brighton,L,Away,0,1,0.7,0.4,37
@@ -34,6 +34,6 @@ Matchweek 32,Nottingham-Forest,Tottenham,L,Away,1,3,1.5,1.5,37
 Matchweek 33,Nottingham-Forest,Wolves,D,Home,2,2,1.9,1.0,46
 Matchweek 34,Nottingham-Forest,Everton,L,Away,0,2,0.9,0.3,59
 Matchweek 35,Nottingham-Forest,Manchester-City,L,Home,0,2,1.9,0.9,34
-Matchweek 36,Nottingham-Forest,Sheffield Utd,W,Away,3,1,1.5,2.2,46
+Matchweek 36,Nottingham-Forest,Sheffield-United,W,Away,3,1,1.5,2.2,46
 Matchweek 37,Nottingham-Forest,Chelsea,L,Home,2,3,1.5,1.6,33
 Matchweek 38,Nottingham-Forest,Burnley,W,Away,2,1,1.7,1.2,28

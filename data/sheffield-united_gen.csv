@@ -4,10 +4,10 @@ Matchweek 2,Sheffield-United,Nottingham-Forest,L,Away,1,2,0.5,1.4,50
 Matchweek 3,Sheffield-United,Manchester-City,L,Home,1,2,0.7,3.5,21
 Matchweek 4,Sheffield-United,Everton,D,Home,2,2,1.2,2.5,46
 Matchweek 5,Sheffield-United,Tottenham,L,Away,1,2,0.7,2.1,30
-Matchweek 6,Sheffield-United,Newcastle Utd,L,Home,0,8,0.9,3.9,42
-Matchweek 7,Sheffield-United,West Ham,L,Away,0,2,1.1,2.1,48
+Matchweek 6,Sheffield-United,Newcastle-United,L,Home,0,8,0.9,3.9,42
+Matchweek 7,Sheffield-United,West-Ham-United,L,Away,0,2,1.1,2.1,48
 Matchweek 8,Sheffield-United,Fulham,L,Away,1,3,0.6,2.2,40
-Matchweek 9,Sheffield-United,Manchester Utd,L,Home,1,2,1.4,1.1,38
+Matchweek 9,Sheffield-United,Manchester-United,L,Home,1,2,1.4,1.1,38
 Matchweek 10,Sheffield-United,Arsenal,L,Away,0,5,0.0,2.8,33
 Matchweek 11,Sheffield-United,Wolves,W,Home,2,1,1.0,1.2,39
 Matchweek 12,Sheffield-United,Brighton,D,Away,1,1,1.1,1.5,39
@@ -19,7 +19,7 @@ Matchweek 17,Sheffield-United,Chelsea,L,Away,0,2,0.4,3.1,22
 Matchweek 18,Sheffield-United,Aston-Villa,D,Away,1,1,0.6,0.9,23
 Matchweek 19,Sheffield-United,Luton-Town,L,Home,2,3,2.4,0.6,51
 Matchweek 20,Sheffield-United,Manchester-City,L,Away,0,2,0.3,2.2,20
-Matchweek 21,Sheffield-United,West Ham,D,Home,2,2,2.5,2.3,57
+Matchweek 21,Sheffield-United,West-Ham-United,D,Home,2,2,2.5,2.3,57
 Matchweek 22,Sheffield-United,Crystal-Palace,L,Away,2,3,0.8,1.1,47
 Matchweek 23,Sheffield-United,Aston-Villa,L,Home,0,5,1.4,2.2,37
 Matchweek 24,Sheffield-United,Luton-Town,W,Away,3,1,1.7,1.8,26
@@ -32,8 +32,8 @@ Matchweek 31,Sheffield-United,Liverpool,L,Away,1,3,0.6,1.8,18
 Matchweek 32,Sheffield-United,Chelsea,D,Home,2,2,1.4,0.3,32
 Matchweek 33,Sheffield-United,Brentford,L,Away,0,2,0.8,1.0,47
 Matchweek 34,Sheffield-United,Burnley,L,Home,1,4,2.4,2.2,49
-Matchweek 29,Sheffield-United,Manchester Utd,L,Away,2,4,0.8,2.9,29
-Matchweek 35,Sheffield-United,Newcastle Utd,L,Away,1,5,1.5,3.1,40
+Matchweek 29,Sheffield-United,Manchester-United,L,Away,2,4,0.8,2.9,29
+Matchweek 35,Sheffield-United,Newcastle-United,L,Away,1,5,1.5,3.1,40
 Matchweek 36,Sheffield-United,Nottingham-Forest,L,Home,1,3,2.2,1.5,54
 Matchweek 37,Sheffield-United,Everton,L,Away,0,1,0.6,2.3,42
 Matchweek 38,Sheffield-United,Tottenham,L,Home,0,3,1.0,3.1,25

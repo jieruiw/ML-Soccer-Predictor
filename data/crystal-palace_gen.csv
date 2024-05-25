@@ -1,18 +1,18 @@
 Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
-Matchweek 1,Crystal-Palace,Sheffield Utd,W,Away,1,0,1.9,0.5,68
+Matchweek 1,Crystal-Palace,Sheffield-United,W,Away,1,0,1.9,0.5,68
 Matchweek 2,Crystal-Palace,Arsenal,L,Home,0,1,1.0,2.0,47
 Matchweek 3,Crystal-Palace,Brentford,D,Away,1,1,0.8,1.0,40
 Matchweek 4,Crystal-Palace,Wolves,W,Home,3,2,2.1,1.2,43
 Matchweek 5,Crystal-Palace,Aston-Villa,L,Away,1,3,1.2,3.0,34
 Matchweek 6,Crystal-Palace,Fulham,D,Home,0,0,0.3,0.6,51
-Matchweek 7,Crystal-Palace,Manchester Utd,W,Away,1,0,0.9,1.3,23
+Matchweek 7,Crystal-Palace,Manchester-United,W,Away,1,0,0.9,1.3,23
 Matchweek 8,Crystal-Palace,Nottingham-Forest,D,Home,0,0,0.8,1.0,52
-Matchweek 9,Crystal-Palace,Newcastle Utd,L,Away,0,4,1.2,2.4,41
+Matchweek 9,Crystal-Palace,Newcastle-United,L,Away,0,4,1.2,2.4,41
 Matchweek 10,Crystal-Palace,Tottenham,L,Home,1,2,0.6,1.1,25
 Matchweek 11,Crystal-Palace,Burnley,W,Away,2,0,1.3,1.1,33
 Matchweek 12,Crystal-Palace,Everton,L,Home,2,3,2.2,1.5,67
 Matchweek 13,Crystal-Palace,Luton-Town,L,Away,1,2,1.6,0.9,61
-Matchweek 14,Crystal-Palace,West Ham,D,Away,1,1,0.9,1.1,45
+Matchweek 14,Crystal-Palace,West-Ham-United,D,Away,1,1,0.9,1.1,45
 Matchweek 15,Crystal-Palace,Bournemouth,L,Home,0,2,1.0,1.8,59
 Matchweek 16,Crystal-Palace,Liverpool,L,Home,1,2,1.7,1.2,24
 Matchweek 17,Crystal-Palace,Manchester-City,D,Away,2,2,1.8,1.6,26
@@ -20,7 +20,7 @@ Matchweek 18,Crystal-Palace,Brighton,D,Home,1,1,1.3,1.2,35
 Matchweek 19,Crystal-Palace,Chelsea,L,Away,1,2,1.1,2.6,37
 Matchweek 20,Crystal-Palace,Brentford,W,Home,3,1,1.0,1.4,46
 Matchweek 21,Crystal-Palace,Arsenal,L,Away,0,5,0.3,3.3,40
-Matchweek 22,Crystal-Palace,Sheffield Utd,W,Home,3,2,1.1,0.8,53
+Matchweek 22,Crystal-Palace,Sheffield-United,W,Home,3,2,1.1,0.8,53
 Matchweek 23,Crystal-Palace,Brighton,L,Away,1,4,0.3,1.4,32
 Matchweek 24,Crystal-Palace,Chelsea,L,Home,1,3,0.6,1.4,23
 Matchweek 25,Crystal-Palace,Everton,D,Away,1,1,0.7,1.7,39
@@ -31,9 +31,9 @@ Matchweek 30,Crystal-Palace,Nottingham-Forest,D,Away,1,1,1.2,0.9,41
 Matchweek 31,Crystal-Palace,Bournemouth,L,Away,0,1,0.2,1.1,50
 Matchweek 32,Crystal-Palace,Manchester-City,L,Home,2,4,1.1,1.9,25
 Matchweek 33,Crystal-Palace,Liverpool,W,Away,1,0,2.0,2.7,31
-Matchweek 34,Crystal-Palace,West Ham,W,Home,5,2,2.4,1.3,60
-Matchweek 29,Crystal-Palace,Newcastle Utd,W,Home,2,0,0.9,0.4,47
+Matchweek 34,Crystal-Palace,West-Ham-United,W,Home,5,2,2.4,1.3,60
+Matchweek 29,Crystal-Palace,Newcastle-United,W,Home,2,0,0.9,0.4,47
 Matchweek 35,Crystal-Palace,Fulham,D,Away,1,1,1.0,1.1,47
-Matchweek 36,Crystal-Palace,Manchester Utd,W,Home,4,0,1.7,0.4,43
+Matchweek 36,Crystal-Palace,Manchester-United,W,Home,4,0,1.7,0.4,43
 Matchweek 37,Crystal-Palace,Wolves,W,Away,3,1,2.6,1.6,38
 Matchweek 38,Crystal-Palace,Aston-Villa,W,Home,5,0,2.5,0.9,54

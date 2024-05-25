@@ -39,12 +39,12 @@ team_name_mapping = {
     "Liverpool": "Liverpool",
     "Luton Town": "Luton-Town",
     "Manchester City": "Manchester-City",
-    "Manchester United": "Manchester-United",
-    "Newcastle United": "Newcastle-United",
+    "Manchester Utd": "Manchester-United",
+    "Newcastle Utd": "Newcastle-United",
     "Nott'ham Forest": "Nottingham-Forest",
-    "Sheffield United": "Sheffield-United",
+    "Sheffield Utd": "Sheffield-United",
     "Tottenham Hotspur": "Tottenham-Hotspur",
-    "West Ham United": "West-Ham-United",
+    "West Ham": "West-Ham-United",
     "Wolverhampton Wanderers": "Wolverhampton-Wanderers"
 }
 

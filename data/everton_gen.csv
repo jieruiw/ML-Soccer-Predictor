@@ -2,18 +2,18 @@ Round,Team,Opponent,Result,Venue,GF,GA,xG,xGA,Poss
 Matchweek 1,Everton,Fulham,L,Home,0,1,2.7,1.5,42
 Matchweek 2,Everton,Aston-Villa,L,Away,0,4,0.6,2.9,40
 Matchweek 3,Everton,Wolves,L,Home,0,1,1.3,1.1,47
-Matchweek 4,Everton,Sheffield Utd,D,Away,2,2,2.5,1.2,54
+Matchweek 4,Everton,Sheffield-United,D,Away,2,2,2.5,1.2,54
 Matchweek 5,Everton,Arsenal,L,Home,0,1,0.3,1.0,26
 Matchweek 6,Everton,Brentford,W,Away,3,1,1.9,1.0,43
 Matchweek 7,Everton,Luton-Town,L,Home,1,2,2.9,0.9,67
 Matchweek 8,Everton,Bournemouth,W,Home,3,0,2.4,0.7,48
 Matchweek 9,Everton,Liverpool,L,Away,0,2,0.1,2.2,23
-Matchweek 10,Everton,West Ham,W,Away,1,0,0.8,0.7,36
+Matchweek 10,Everton,West-Ham-United,W,Away,1,0,0.8,0.7,36
 Matchweek 11,Everton,Brighton,D,Home,1,1,0.7,0.5,21
 Matchweek 12,Everton,Crystal-Palace,W,Away,3,2,1.5,2.2,33
-Matchweek 13,Everton,Manchester Utd,L,Home,0,3,2.4,2.2,51
+Matchweek 13,Everton,Manchester-United,L,Home,0,3,2.4,2.2,51
 Matchweek 14,Everton,Nottingham-Forest,W,Away,1,0,0.7,0.7,39
-Matchweek 15,Everton,Newcastle Utd,W,Home,3,0,3.3,1.5,38
+Matchweek 15,Everton,Newcastle-United,W,Home,3,0,3.3,1.5,38
 Matchweek 16,Everton,Chelsea,W,Home,2,0,1.2,0.9,29
 Matchweek 17,Everton,Burnley,W,Away,2,0,1.4,0.7,39
 Matchweek 18,Everton,Tottenham,L,Away,1,2,1.8,1.5,39
@@ -25,15 +25,15 @@ Matchweek 23,Everton,Tottenham,D,Home,2,2,2.6,1.0,43
 Matchweek 24,Everton,Manchester-City,L,Away,0,2,0.3,1.6,28
 Matchweek 25,Everton,Crystal-Palace,D,Home,1,1,1.7,0.7,61
 Matchweek 26,Everton,Brighton,D,Away,1,1,0.3,1.4,36
-Matchweek 27,Everton,West Ham,L,Home,1,3,2.7,1.9,55
-Matchweek 28,Everton,Manchester Utd,L,Away,0,2,1.6,2.7,49
+Matchweek 27,Everton,West-Ham-United,L,Home,1,3,2.7,1.9,55
+Matchweek 28,Everton,Manchester-United,L,Away,0,2,1.6,2.7,49
 Matchweek 30,Everton,Bournemouth,L,Away,1,2,1.0,1.3,52
-Matchweek 31,Everton,Newcastle Utd,D,Away,1,1,1.4,2.4,43
+Matchweek 31,Everton,Newcastle-United,D,Away,1,1,1.4,2.4,43
 Matchweek 32,Everton,Burnley,W,Home,1,0,0.9,0.5,38
 Matchweek 33,Everton,Chelsea,L,Away,0,6,1.5,3.1,42
 Matchweek 34,Everton,Nottingham-Forest,W,Home,2,0,0.3,0.9,41
 Matchweek 29,Everton,Liverpool,W,Home,2,0,1.2,2.1,25
 Matchweek 35,Everton,Brentford,W,Home,1,0,0.8,0.9,48
 Matchweek 36,Everton,Luton-Town,D,Away,1,1,1.4,0.8,49
-Matchweek 37,Everton,Sheffield Utd,W,Home,1,0,2.3,0.6,58
+Matchweek 37,Everton,Sheffield-United,W,Home,1,0,2.3,0.6,58
 Matchweek 38,Everton,Arsenal,L,Away,1,2,0.6,2.9,32
