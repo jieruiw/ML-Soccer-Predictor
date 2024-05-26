@@ -10,7 +10,7 @@ df = pd.read_csv(data_path)
 # Define features and target
 features = [
     'Recent_GF_home', 'Recent_GA_home', 'Recent_xG_home', 'Recent_xGA_home', 'Recent_Poss_home', 'Form_home',
-    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away',
+    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away'
 ]
 
 
@@ -25,7 +25,7 @@ print(f'Training set shape: {X_train.shape}')
 print(f'Test set shape: {X_test.shape}')
 
 # Train a multinomial logistic regression model
-model = LogisticRegression(max_iter=4000, solver='lbfgs')
+model = LogisticRegression(max_iter=3000, solver='lbfgs')
 model.fit(X_train, y_train)
 
 # Make predictions

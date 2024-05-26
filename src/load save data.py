@@ -43,7 +43,7 @@ team_name_mapping = {
     "Newcastle Utd": "Newcastle-United",
     "Nott'ham Forest": "Nottingham-Forest",
     "Sheffield Utd": "Sheffield-United",
-    "Tottenham Hotspur": "Tottenham-Hotspur",
+    "Tottenham": "Tottenham-Hotspur",
     "West Ham": "West-Ham-United",
     "Wolves": "Wolverhampton-Wanderers"
 }
