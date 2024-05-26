@@ -10,7 +10,9 @@ df = pd.read_csv(data_path)
 # Define features and target
 features = [
     'Recent_GF_home', 'Recent_GA_home', 'Recent_xG_home', 'Recent_xGA_home', 'Recent_Poss_home', 'Form_home',
-    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away'
+    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away',
+    'Cum_GF_home', 'Cum_GA_home', 'Cum_xG_home', 'Cum_xGA_home', 'Cum_Poss_home',
+    'Cum_GF_away', 'Cum_GA_away', 'Cum_xG_away', 'Cum_xGA_away', 'Cum_Poss_away'
 ]
 
 
@@ -18,14 +20,14 @@ X = df[features]
 y = df['Label']
 
 # Train-test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=43)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
 
 # Debug: Check the shape of the training and test sets
 print(f'Training set shape: {X_train.shape}')
 print(f'Test set shape: {X_test.shape}')
 
 # Train a multinomial logistic regression model
-model = LogisticRegression(max_iter=3000, solver='lbfgs')
+model = LogisticRegression(max_iter=100000, solver='lbfgs')
 model.fit(X_train, y_train)
 
 # Make predictions
