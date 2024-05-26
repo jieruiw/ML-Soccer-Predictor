@@ -9,8 +9,8 @@ df = pd.read_csv(data_path)
 
 # Define features and target
 features = [
-    'Avg_GF_home', 'Avg_GA_home', 'Avg_xG_home', 'Avg_xGA_home', 'Avg_Poss_home', 'Form_home',
-    'Avg_GF_away', 'Avg_GA_away', 'Avg_xG_away', 'Avg_xGA_away', 'Avg_Poss_away', 'Form_away'
+    'Recent_GF_home', 'Recent_GA_home', 'Recent_xG_home', 'Recent_xGA_home', 'Recent_Poss_home', 'Form_home',
+    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away'
 ]
 
 

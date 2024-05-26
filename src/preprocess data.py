@@ -20,15 +20,26 @@ combined_df = combined_df.sort_values(by=['Round', 'Team'])
 
 # Feature engineering
 def add_rolling_features(df, window=3):
-    df['Avg_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
-    df['Avg_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
-    df['Avg_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
-    df['Avg_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
-    df['Avg_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Recent_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Recent_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Recent_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Recent_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
+    df['Recent_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).rolling(window, min_periods=1).mean())
     return df
 
 
 combined_df = add_rolling_features(combined_df)
+
+
+def add_cumulative_features(df):
+    df['Cum_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).expanding().mean())
+    df['Cum_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).expanding().mean())
+    df['Cum_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).expanding().mean())
+    df['Cum_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).expanding().mean())
+    df['Cum_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).expanding().mean())
+    return df
+
+combined_df = add_cumulative_features(combined_df)
 
 
 # Label creation
@@ -93,12 +104,6 @@ combined_df['Label'] = combined_df.apply(
 
 # Drop rows with NaN values after merging
 combined_df = combined_df.dropna()
-
-# Define features and target
-features = [
-    'Avg_GF_home', 'Avg_GA_home', 'Avg_xG_home', 'Avg_xGA_home', 'Avg_Poss_home', 'Form_home',
-    'Avg_GF_away', 'Avg_GA_away', 'Avg_xG_away', 'Avg_xGA_away', 'Avg_Poss_away', 'Form_away'
-]
 
 # Save the final dataframe to a CSV file for inspection
 combined_df.to_csv('../data/final_combined_df.csv')
