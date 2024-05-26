@@ -53,6 +53,9 @@ def add_cumulative_features(df):
     df['Cum_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).cumsum())
     return df
 
+
+combined_df = add_cumulative_features(combined_df)
+
 # Add form feature
 def calculate_form(df):
     def form_points(result):
