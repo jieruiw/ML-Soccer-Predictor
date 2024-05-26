@@ -20,7 +20,7 @@ X = df[features]
 y = df['Label']
 
 # Train-test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=22)
 
 # Debug: Check the shape of the training and test sets
 print(f'Training set shape: {X_train.shape}')
