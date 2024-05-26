@@ -34,18 +34,6 @@ combined_df = add_rolling_features(combined_df)
 combined_df.to_csv('../data/afterrolling.csv')
 
 
-def add_cumulative_features(df):
-    df['Cum_GF'] = df.groupby('Team').apply(lambda x: x['GF'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
-    df['Cum_GA'] = df.groupby('Team').apply(lambda x: x['GA'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
-    df['Cum_xG'] = df.groupby('Team').apply(lambda x: x['xG'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
-    df['Cum_xGA'] = df.groupby('Team').apply(lambda x: x['xGA'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
-    df['Cum_Poss'] = df.groupby('Team').apply(lambda x: x['Poss'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
-    return df
-
-
-combined_df = add_cumulative_features(combined_df)
-
-
 # Label creation
 def create_labels(df):
     df['Label'] = 0
@@ -56,6 +44,14 @@ def create_labels(df):
 
 combined_df = create_labels(combined_df)
 
+
+def add_cumulative_features(df):
+    df['Cum_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).cumsum())
+    df['Cum_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).cumsum())
+    df['Cum_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).cumsum())
+    df['Cum_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).cumsum())
+    df['Cum_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).cumsum())
+    return df
 
 # Add form feature
 def calculate_form(df):
