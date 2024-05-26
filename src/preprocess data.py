@@ -31,13 +31,17 @@ def add_rolling_features(df, window=3):
 combined_df = add_rolling_features(combined_df)
 
 
+combined_df.to_csv('../data/afterrolling.csv')
+
+
 def add_cumulative_features(df):
-    df['Cum_GF'] = df.groupby('Team')['GF'].transform(lambda x: x.shift(1).expanding().mean())
-    df['Cum_GA'] = df.groupby('Team')['GA'].transform(lambda x: x.shift(1).expanding().mean())
-    df['Cum_xG'] = df.groupby('Team')['xG'].transform(lambda x: x.shift(1).expanding().mean())
-    df['Cum_xGA'] = df.groupby('Team')['xGA'].transform(lambda x: x.shift(1).expanding().mean())
-    df['Cum_Poss'] = df.groupby('Team')['Poss'].transform(lambda x: x.shift(1).expanding().mean())
+    df['Cum_GF'] = df.groupby('Team').apply(lambda x: x['GF'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
+    df['Cum_GA'] = df.groupby('Team').apply(lambda x: x['GA'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
+    df['Cum_xG'] = df.groupby('Team').apply(lambda x: x['xG'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
+    df['Cum_xGA'] = df.groupby('Team').apply(lambda x: x['xGA'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
+    df['Cum_Poss'] = df.groupby('Team').apply(lambda x: x['Poss'].shift(1).cumsum() / (x['Round'] - 1)).reset_index(level=0, drop=True)
     return df
+
 
 combined_df = add_cumulative_features(combined_df)
 

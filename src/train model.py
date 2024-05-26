@@ -10,7 +10,7 @@ df = pd.read_csv(data_path)
 # Define features and target
 features = [
     'Recent_GF_home', 'Recent_GA_home', 'Recent_xG_home', 'Recent_xGA_home', 'Recent_Poss_home', 'Form_home',
-    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away'
+    'Recent_GF_away', 'Recent_GA_away', 'Recent_xG_away', 'Recent_xGA_away', 'Recent_Poss_away', 'Form_away',
 ]
 
 
@@ -18,7 +18,7 @@ X = df[features]
 y = df['Label']
 
 # Train-test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.08, random_state=43)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=43)
 
 # Debug: Check the shape of the training and test sets
 print(f'Training set shape: {X_train.shape}')
