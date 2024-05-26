@@ -69,9 +69,36 @@ def calculate_form(df):
     df.drop(columns=['Form_Points'], inplace=True)
     return df
 
+
 combined_df = calculate_form(combined_df)
 
+# Create a unique match identifier for home and away matches separately
+combined_df['Match_ID'] = combined_df.apply(
+    lambda row: f"{row['Round']}-{row['Team'].replace(' ', '_')}-{row['Opponent'].replace(' ', '_')}", axis=1)
+combined_df['Opponent_Match_ID'] = combined_df.apply(
+    lambda row: f"{row['Round']}-{row['Opponent'].replace(' ', '_')}-{row['Team'].replace(' ', '_')}", axis=1)
 
-# Save the processed data
-processed_data_path = os.path.join(data_directory, 'processed_combined_data.csv')
-combined_df.to_csv(processed_data_path, index=False)
+# Split the dataframe into home and away dataframes
+home_df = combined_df[combined_df['Venue'] == 'Home'].set_index('Match_ID')
+away_df = combined_df[combined_df['Venue'] == 'Away'].set_index('Opponent_Match_ID')
+
+# Join home and away dataframes on their unique match identifiers
+combined_df = home_df.join(away_df, lsuffix='_home', rsuffix='_away', how='inner')
+
+# Adjust target to reflect three possible outcomes: 1 (home win), 0 (draw), -1 (away win)
+combined_df['Label'] = combined_df['Label_home']
+combined_df['Label'] = combined_df.apply(
+    lambda row: 0 if row['Label_home'] == 0 and row['Label_away'] == 0 else row['Label'], axis=1
+)
+
+# Drop rows with NaN values after merging
+combined_df = combined_df.dropna()
+
+# Define features and target
+features = [
+    'Avg_GF_home', 'Avg_GA_home', 'Avg_xG_home', 'Avg_xGA_home', 'Avg_Poss_home', 'Form_home',
+    'Avg_GF_away', 'Avg_GA_away', 'Avg_xG_away', 'Avg_xGA_away', 'Avg_Poss_away', 'Form_away'
+]
+
+# Save the final dataframe to a CSV file for inspection
+combined_df.to_csv('../data/final_combined_df.csv')
